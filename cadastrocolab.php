@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Colaboradores - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -22,9 +23,10 @@ include('menucolab.html');
 
 ?>
 
+<div class="container-conteudo">
 
 <!--FORMULÁRIO DE CADASTRO DE COLABORADORES-->
-        <form action="" method="post">
+        <form action="cadastrocolab2.php" method="post">
 
             <input type="text" name="matriculacolab" autocomplete="off" placeholder="Nova matrícula"><br>
             <input type="text" name="nomecolab" autocomplete="off" placeholder="Nome do novo colaborador"><br>
@@ -37,39 +39,13 @@ include('menucolab.html');
 
 
 
-<!--CÓDIGO PHP - CADASTRO DE COLABORADORES-->
-<?php
 
-include('conexao.php');
-
-@$matricula = $_POST['matriculacolab'];
-@$nome = $_POST['nomecolab'];
-@$cpf = $_POST['cpfcolab'];
-@$senhacolab = $_POST['senhacolab'];
-
-echo "
-
-- Matrícula: ".$matricula."<br>
-- Nome do funcionário: ".$nome."<br>
-- CPF: ".$cpf."<br>";
-
-$adicionar = "INSERT INTO colaborador(matriculacolab, nomecolab, cpfcolab, senhacolab) VALUES('".$matricula."', '".$nome."', '".$cpf."', '".$senhacolab."')";
-
-$inserir = mysqli_query($conectadb, $adicionar);
-
-if ($inserir) {
-    echo "Funcionário ".$nome." cadastrado com sucesso!";
-} else {
-    "Erro ao cadastrar colaborador.";
-}
-
-?>
 <hr>
 <br>
 
     <footer>
         <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
     </footer>
-
+    </div>
 </body>
 </html>

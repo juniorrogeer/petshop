@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar dados de Clientes - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -14,10 +15,15 @@
 <h1>Editar dados de Clientes - PETSHOP</h1>
 <hr>
 
-<?php
 
+<?php
 include('menucolab.html');
 include('conexao.php');
+?>
+
+<div class="container-conteudo">
+
+<?php
 
 $cpfcli = $_GET['cpfcli'];
 
@@ -100,6 +106,6 @@ $linha = mysqli_fetch_array($sql);
 
 ?>
 
-
+</div>
 </body>
 </html>

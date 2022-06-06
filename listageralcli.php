@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Geral de Clientes - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -16,6 +17,8 @@
 
 include('menucolab.html');
 ?>
+
+<div class="container-conteudo">
 
 <?php
 
@@ -49,6 +52,6 @@ $sql = mysqli_query($conectadb, "SELECT * FROM cliente");
 <footer>
 <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
 </footer>
-
+</div>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa Refinada - Base de Clientes - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -23,6 +24,8 @@ include('menucolab.html');
 ?>
 
 
+<div class="container-conteudo">
+
 
 <!--FORMULÁRIO DE PESQUISA REFINADA-->
     <form class="d-flex" action="" method="post">
@@ -34,7 +37,7 @@ include('menucolab.html');
     </form>
 
 
-
+    </div>
 
     <!--CÓDIGO PHP - LISTAR DADOS DE TODOS OS CLIENTES-->
 <?php

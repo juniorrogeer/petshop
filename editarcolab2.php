@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar dados de Colaboradores - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -17,6 +18,9 @@
 <?php
 include('menucolab.html');
 include('conexao.php');
+?>
+<div class="container-conteudo">
+<?php
 
 $matriculacolab = $_POST['matriculacolab'];
 $nomecolab = $_POST['nomecolab'];
@@ -38,6 +42,6 @@ $sql4 = mysqli_query($conectadb, "UPDATE colaborador SET senhacolab = '$cpfcli' 
     }
 
 ?>
-
+</div>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar dados de Pets - PETSHOP</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -17,6 +18,9 @@
 <?php
 include('menucolab.html');
 include('conexao.php');
+?>
+<div class="container-conteudo">
+<?php
 
 $idpet = $_POST['idpet'];
 $nomepet = $_POST['nomepet'];
@@ -42,6 +46,6 @@ $sql5 = mysqli_query($conectadb, "UPDATE pet SET nomecli = '$nomecli' WHERE idpe
     }
 
 ?>
-
+</div>
 </body>
 </html>

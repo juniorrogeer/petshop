@@ -1,0 +1,9 @@
+.container-conteudo {
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 900px;
+    background-color: bisque;
+}

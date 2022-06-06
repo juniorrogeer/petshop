@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes - PetShop</title>
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
 include('menucolab.html');
 ?>
 
+<div class="container-conteudo">
+        <!--CAMPOS DE INSERÇÃO DE DADOS PARA CADASTRO-->
 
-    <!--CAMPOS DE INSERÇÃO DE DADOS PARA CADASTRO-->
-
-        <form action="" method="post" autocomplete="false">
+        <form action="cadastrocli2.php" method="post" autocomplete="false">
 
             <input type="text" name="cpfcli" autocomplete="off" placeholder="CPF"><br>
             <input type="text" name="nomecli" autocomplete="off" placeholder="Nome do cliente"><br>
@@ -36,47 +37,14 @@ include('menucolab.html');
 
         <hr>
 
-<!--CÓDIGO PHP QUE PERMITE A INTERAÇÃO DA PÁGINA WEB COM O BANCO DE DADOS-->
-
-<?php
-
-include('conexao.php');
-
-@$cpfcli = $_POST['cpfcli'];
-@$nomecli = $_POST['nomecli'];
-@$telefone = $_POST['telefone'];
-@$email = $_POST['email'];
-@$endereco = $_POST['endereco'];
-@$senhacli = $_POST['senha'];
-
-echo "
-
-- CPF: ".$cpfcli."<br>
-- Nome do cliente: ".$nomecli."<br>
-- Telefone: ".$telefone."<br>
-- E-mail: ".$email."<br>
-- Endereço: ".$endereco."<br>";
 
 
-    $adicionar = "INSERT INTO cliente(cpfcli, nomecli, telefone, email, endereco, senha) VALUES('".$cpfcli."', '".$nomecli."', '".$telefone."', '".$email."', '".$endereco."', '".$senhacli."')";
 
-
-    $inserir = mysqli_query($conectadb, $adicionar);
-
-        if ($inserir) {
-            echo "Dados do cliente ".$nomecli." cadastrados com sucesso!";
-        } else {
-            "Erro ao cadastrar dados.";
-        }
-
-?>
-
-<hr>
-
-    <footer>
-        <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
-    </footer>
-
+        <footer>
+            <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
+        </footer>
+    
+</div>
 </body>
 
 </html>

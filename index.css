@@ -1,0 +1,21 @@
+body {
+    background-color: royalblue;
+}
+
+.colaborador,
+.cliente {
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    background-color: rgb(211, 211, 253);
+    color: royalblue;
+}
+
+.container-botoes {
+    margin: 10% auto;
+    width: auto;
+    margin-left: 25%;
+}

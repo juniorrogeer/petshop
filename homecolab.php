@@ -11,32 +11,19 @@
 
 <body>
 
-
-    <h1>Login - PETSHOP</h1>
-    <hr>
-
     <?php
 include('menucolab.html');
-include('conexao.php');
 ?>
-<div class="container-conteudo">
+    <h1>Administrativo - PETSHOP</h1>
+    <hr>
+
+
+
 <?php
 
-session_start();
-
-if ((!isset ($_SESSION['matriculacolab']) == true) and (!isset ($_SESSION['senhacolab'] == true))) {
-
-    unset ($_SESSION['matriculacolab']);
-    unset ($_SESSION['senhacolab']);
-
-    header('location: formlogincolab.html');
-}
-
-$colab = $_SESSION['matriculacolab'];
-
-echo "Bem-vindo, $colab";
-
+include('logado.php');
+    echo "Bem-vindo, colaborador Matrícula $logado"
 ?>
-</div>
+
 </body>
 </html>

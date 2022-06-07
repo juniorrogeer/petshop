@@ -10,13 +10,13 @@
 </head>
 
 <body>
-
-<h1>Cadastro de Clientes - PETSHOP</h1>
-<hr>
 <?php
 
 include('menucolab.html');
 ?>
+<h1>Cadastro de Clientes - PETSHOP</h1>
+<hr>
+
         <!--CÓDIGO PHP QUE PERMITE A INTERAÇÃO DA PÁGINA WEB COM O BANCO DE DADOS-->
 
         <?php

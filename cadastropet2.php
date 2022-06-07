@@ -10,13 +10,13 @@
 </head>
 
 <body>
-
-<h1>Cadastro de Pets - PETSHOP</h1>
-<hr>
 <?php
 
 include('menucolab.html');
 ?>
+<h1>Cadastro de Pets - PETSHOP</h1>
+<hr>
+
 <div class="container-conteudo">
 <!--CÓDIGO PHP QUE PERMITE A INTERAÇÃO DA PÁGINA WEB COM O BANCO DE DADOS-->
 
@@ -47,9 +47,11 @@ echo "
     $inserir = mysqli_query($conectadb, $adicionar);
 
         if ($inserir) {
-            echo "Os dados do pet ".$nomepet." associados ao tutor ".$nomecli." foram cadastrados com sucesso!";
+            echo "Os dados do pet ".$nomepet." associados ao tutor ".$nomecli." foram cadastrados com sucesso!
+            <br><a href='cadastropet.php'>Cadastrar novo pet</a>";
         } else {
-            "Erro ao cadastrar dados.";
+            "Erro ao cadastrar dados.
+            <br><a href='cadastropet.php'>Tentar novamente</a>";
         }
 
 ?>

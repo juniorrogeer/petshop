@@ -10,18 +10,18 @@
 </head>
 
 <body>
-
-<!--TÍTULO NA PÁGINA-->
-<h1>Pesquisa Refinada - Base de Pets - PETSHOP</h1>
-<hr>
-
-
 <!--CÓDIGO PHP - INCLUSÃO DO MENU-->
 <?php
 
 include('menucolab.html');
 
 ?>
+<!--TÍTULO NA PÁGINA-->
+<h1>Pesquisa Refinada - Base de Pets - PETSHOP</h1>
+<hr>
+
+
+
 
 <div class="container-conteudo">
 

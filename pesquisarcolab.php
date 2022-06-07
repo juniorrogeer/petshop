@@ -10,17 +10,17 @@
 </head>
 
 <body>
-
-<!--TÍTULO NA PÁGINA-->
-<h1>Pesquisa Refinada - Base de Colaboradores - PETSHOP</h1>
-<hr>
-
-
 <?php
 
 include('menucolab.html');
 
 ?>
+<!--TÍTULO NA PÁGINA-->
+<h1>Pesquisa Refinada - Base de Colaboradores - PETSHOP</h1>
+<hr>
+
+
+
 <div class="container-conteudo">
 <!--FORMULÁRIO PARA INSERÇÃO DA MATRÍCULA PARA PESQUISA NO BANCO DE DADOS-->
 

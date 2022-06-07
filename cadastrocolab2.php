@@ -13,15 +13,16 @@
 <body>
 
 <!--TÍTULO DA PÁGINA-->
-<h1>Cadastro de Colaboradores - PETSHOP</h1>
-<hr>
-
 <!--CÓDIGO PHP - MENU DA PÁGINA-->
 <?php
 
 include('menucolab.html');
 
 ?>
+<h1>Cadastro de Colaboradores - PETSHOP</h1>
+<hr>
+
+
 
 <div class="container-conteudo">
 

@@ -11,14 +11,14 @@
 
 <body>
 
-
-<h1>Editar dados de Colaboradores - PETSHOP</h1>
-<hr>
-
 <?php
 include('menucolab.html');
 include('conexao.php');
 ?>
+<h1>Editar dados de Colaboradores - PETSHOP</h1>
+<hr>
+
+
 <div class="container-conteudo">
 <?php
 

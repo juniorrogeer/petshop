@@ -10,14 +10,19 @@
 </head>
 
 <body>
+<?php
+
+include('menucolab.html');
+include('conexao.php');
+
+?>
 <h1>Exclusão de dados - PETSHOP</h1>
 <hr>
 
-<?php
-include('menucolab.html');
-include('conexao.php');
-?>
+
+
 <div class="container-conteudo">
+
 <?php
 
 $cpfcli = $_GET['cpfcli'];

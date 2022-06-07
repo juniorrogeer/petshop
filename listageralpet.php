@@ -10,14 +10,15 @@
 </head>
 
 <body>
-<h1>Lista Geral de Pets - PETSHOP</h1>
-<hr>
-
 <?php
 
 include('menucolab.html');
 
 ?>
+<h1>Lista Geral de Pets - PETSHOP</h1>
+<hr>
+
+
 
 <div class="container-conteudo">
 <?php
@@ -36,12 +37,12 @@ $sql = mysqli_query($conectadb, "SELECT * FROM pet");
         $cpfcli = $dado['cpfcli'];
         $nomecli = $dado['nomecli'];
 
-        echo "MATRÍCULA: $idpet<br>";
-        echo "NOME: $nomepet<br>";
-        echo "CPF: $especie<br>";
-        echo "MATRÍCULA: $raca<br>";
-        echo "NOME: $cpfcli<br>";
-        echo "CPF: $nomecli<br>";
+        echo "ID do pet: $idpet<br>";
+        echo "Nome do pet: $nomepet<br>";
+        echo "Espécie: $especie<br>";
+        echo "Raça: $raca<br>";
+        echo "CPF do tutor: $cpfcli<br>";
+        echo "Nome do tutor: $nomecli<br>";
 
         echo "<a href='editarpet.php?idpet=".$dado['idpet']."'>Editar dados</a>";
         echo " | <a href='excluirpet.php?idpet=".$dado['idpet']."'>Excluir dados</a>";

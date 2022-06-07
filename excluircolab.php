@@ -10,13 +10,14 @@
 </head>
 
 <body>
-<h1>Exclusão de dados - PETSHOP</h1>
-<hr>
-
+    
 <?php
 include('menucolab.html');
 include('conexao.php');
 ?>
+<h1>Exclusão de dados - PETSHOP</h1>
+<hr>
+
 <div class="container-conteudo">
 <?php
 

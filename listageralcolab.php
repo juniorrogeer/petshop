@@ -10,14 +10,15 @@
 </head>
 
 <body>
-<h1>Lista Geral de Colaboradores - PETSHOP</h1>
-<hr>
-
 <?php
 
 include('menucolab.html');
 
 ?>
+<h1>Lista Geral de Colaboradores - PETSHOP</h1>
+<hr>
+
+
 
 <div class="container-conteudo">
 

@@ -11,13 +11,13 @@
 
 <body>
 
-<h1>Cadastro de Clientes - PETSHOP</h1>
-<hr>
-
 <?php
 
 include('menucolab.html');
 ?>
+<h1>Cadastro de Clientes - PETSHOP</h1>
+<hr>
+
 
 <div class="container-conteudo">
         <!--CAMPOS DE INSERÇÃO DE DADOS PARA CADASTRO-->

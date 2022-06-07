@@ -15,7 +15,7 @@
 include('menucolab.html');
 include('conexao.php');
 ?>
-<h1>Exclusão de dados - PETSHOP</h1>
+<h1>Exclusão de dados</h1>
 <hr>
 
 <div class="container-conteudo">
@@ -23,14 +23,14 @@ include('conexao.php');
 
 $matricula = $_GET['matriculacolab'];
 
-echo "Matrícula do colaborador: ".$matricula."</b></br></br>";
+echo "Matrícula selecionada: nº ".$matricula."</b></br></br>";
 
     $query = "DELETE FROM colaborador WHERE matriculacolab = '$matricula'";
 
     $apaga = $conectadb -> query($query);
 
         if ($apaga) {
-            echo "<b>Os dados vinculados a matrícula ".$matricula." foram deletados com sucesso.</b><br>
+            echo "<b>Os dados vinculados a matrícula nº ".$matricula." foram deletados com sucesso.</b><br>
             <a href='pesquisarcolab.php'>Nova pesquisa</a> | <a href='listageralcolab.php'>Voltar à Lista Geral de Colaboradores</a><br>";
         } else {
             echo "Erro ao excluir dados do colaborador.<br>

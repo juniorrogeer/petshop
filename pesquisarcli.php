@@ -19,7 +19,7 @@ include('menucolab.html');
 
 
 <!--TÍTULO NA PÁGINA-->
-<h1>Pesquisa Refinada - Base de Clientes - PETSHOP</h1>
+<h1>Pesquisa Refinada - Base de Clientes</h1>
 <hr>
 
 
@@ -33,7 +33,7 @@ include('menucolab.html');
         
         <input type="text" autocomplete="off" name="cpfcli" placeholder="CPF do cliente">
 
-        <input class="btn btn-outline-primary" type="submit" value="Buscar dados">
+        <input class="btn btn-outline-dark" type="submit" value="Buscar dados">
 
     </form>
 

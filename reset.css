@@ -1,9 +1,55 @@
 .container-conteudo {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-left: 300px;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 900px;
-    background-color: bisque;
+    background-color: rgb(237, 240, 250);
+}
+
+input {
+    padding: 10px 90px 10px 10px;
+    margin: 5px 90px 15px 5px;
+    border-radius: 7px;
+    border-color: rgb(229, 227, 227);
+    border-style: dotted solid 2px;
+}
+
+input:hover {
+    border-style: solid 2px;
+    border: royalblue solid 2px;
+    color: white;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button {
+    margin-top: 100px;
+    border-radius: 12px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 5px 5px;
+    color: green;
+    background-color: white;
+    border: greenyellow solid 2px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    width: 900px;
+    margin-left: 35%;
+}
+
+footer {
+    margin: auto;
+    width: 600px;
+    padding-left: 50px;
 }

@@ -15,7 +15,7 @@
 include('menucolab.html');
 include('conexao.php');
 ?>
-<h1>Editar dados de Pets - PETSHOP</h1>
+<h1>Editar dados de Pets</h1>
 <hr>
 
 

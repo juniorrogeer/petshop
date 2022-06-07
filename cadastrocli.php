@@ -15,7 +15,7 @@
 
 include('menucolab.html');
 ?>
-<h1>Cadastro de Clientes - PETSHOP</h1>
+<h1>Cadastro de Clientes</h1>
 <hr>
 
 
@@ -24,27 +24,25 @@ include('menucolab.html');
 
         <form action="cadastrocli2.php" method="post" autocomplete="false">
 
-            <input type="text" name="cpfcli" autocomplete="off" placeholder="CPF"><br>
-            <input type="text" name="nomecli" autocomplete="off" placeholder="Nome do cliente"><br>
-            <input type="text" name="telefone" autocomplete="off" placeholder="Telefone"><br>
-            <input type="email" name="email" autocomplete="off" placeholder="E-mail"><br>
-            <input type="text" name="endereco" autocomplete="off" placeholder="Endereço"><br>
-            <input type="password" name="senha" autocomplete="off" placeholder="Nova senha"><br>
+            <input type="text" required="required" name="cpfcli" autocomplete="off" placeholder="CPF"><br>
+            <input type="text" required="required" name="nomecli" autocomplete="off" placeholder="Nome do cliente"><br>
+            <input type="text" required="required" name="telefone" autocomplete="off" placeholder="Telefone"><br>
+            <input type="email" required="required" name="email" autocomplete="off" placeholder="E-mail"><br>
+            <input type="text" required="required" name="endereco" autocomplete="off" placeholder="Endereço"><br>
+            <input type="password" required="required" name="senha" autocomplete="off" placeholder="Nova senha"><br>
 
-            <input type="submit" value="Cadastrar cliente">
+            <button type="submit">Cadastrar</button>
 
         </form>
 
+
+    
+</div>
         <hr>
-
-
-
-
         <footer>
             <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
         </footer>
-    
-</div>
+
 </body>
 
 </html>

@@ -17,7 +17,7 @@ include('menucolab.html');
 
 ?>
 <!--TÍTULO NA PÁGINA-->
-<h1>Pesquisa Refinada - Base de Pets - PETSHOP</h1>
+<h1>Pesquisa Refinada - Base de Pets</h1>
 <hr>
 
 
@@ -30,7 +30,7 @@ include('menucolab.html');
         
         <input type="text" autocomplete="off" name="idpet" placeholder="ID do pet">
 
-        <input class="btn btn-outline-primary" type="submit" value="Buscar dados">
+        <input class="btn btn-outline-dark" type="submit" value="Buscar dados">
 
     </form>
 

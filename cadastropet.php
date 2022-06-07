@@ -14,7 +14,7 @@
 
 include('menucolab.html');
 ?>
-<h1>Cadastro de Pets - PETSHOP</h1>
+<h1>Cadastro de Pets</h1>
 <hr>
 
 
@@ -25,18 +25,16 @@ include('menucolab.html');
 
         <form action="cadastropet2.php" method="post" autocomplete="false">
 
-            <input type="text" name="idpet" autocomplete="off" placeholder="ID Pet"><br>
-            <input type="text" name="nomepet" autocomplete="off" placeholder="Nome do pet"><br>
-            <input type="text" name="especie" autocomplete="off" placeholder="Espécie"><br>
-            <input type="text" name="raca" autocomplete="off" placeholder="Raça do pet"><br>
-            <input type="text" name="cpfcli" autocomplete="off" placeholder="CPF do tutor"><br>
-            <input type="text" name="nomecli" autocomplete="off" placeholder="Nome do tutor"><br>
+            <input type="text" required="required" name="idpet" autocomplete="off" placeholder="ID Pet"><br>
+            <input type="text" required="required" name="nomepet" autocomplete="off" placeholder="Nome do pet"><br>
+            <input type="text" required="required" name="especie" autocomplete="off" placeholder="Espécie"><br>
+            <input type="text" required="required" name="raca" autocomplete="off" placeholder="Raça do pet"><br>
+            <input type="text" required="required" name="cpfcli" autocomplete="off" placeholder="CPF do tutor"><br>
+            <input type="text" required="required" name="nomecli" autocomplete="off" placeholder="Nome do tutor"><br>
 
-            <input type="submit" value="Cadastrar pet">
+            <button type="submit">Cadastrar</button>
 
         </form>
-
-        <hr>
 
 
 <hr>

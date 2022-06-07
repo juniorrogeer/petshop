@@ -19,7 +19,7 @@
 include('menucolab.html');
 
 ?>
-<h1>Cadastro de Colaboradores - PETSHOP</h1>
+<h1>Cadastro de Colaboradores</h1>
 <hr>
 
 

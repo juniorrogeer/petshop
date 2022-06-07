@@ -15,7 +15,12 @@ body {
 }
 
 .container-botoes {
-    margin: 10% auto;
+    margin: 15% auto;
     width: auto;
-    margin-left: 25%;
+    margin-left: 35%;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }

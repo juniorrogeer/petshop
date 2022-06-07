@@ -15,7 +15,7 @@
 include('menucolab.html');
 ?>
 
-<h1>Lista Geral de Clientes - PETSHOP</h1>
+<h1>Lista Geral de Clientes</h1>
 <hr>
 
 
@@ -44,7 +44,7 @@ $sql = mysqli_query($conectadb, "SELECT * FROM cliente");
         echo "<a href='editarcli.php?cpfcli=".$dado['cpfcli']."'>Editar dados</a>";
         echo " | <a href='excluircli.php?cpfcli=".$dado['cpfcli']."'>Excluir dados</a>";
         echo "<hr>";
-        echo "<hr>";
+
 
     }
 
@@ -53,6 +53,8 @@ $sql = mysqli_query($conectadb, "SELECT * FROM cliente");
 <footer>
 <p>Projeto desenvolvido no Curso Técnico em Informática do SENAC 2022</p>
 </footer>
+
+
 </div>
 </body>
 </html>

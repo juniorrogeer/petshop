@@ -14,7 +14,7 @@
 
 include('menucolab.html');
 ?>
-<h1>Cadastro de Pets - PETSHOP</h1>
+<h1>Cadastro de Pets</h1>
 <hr>
 
 <div class="container-conteudo">

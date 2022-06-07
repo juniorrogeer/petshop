@@ -11,18 +11,19 @@
 
 <body>
 
-    <?php
+<?php
 include('menucolab.html');
 ?>
-    <h1>Administrativo - PETSHOP</h1>
+    
+    
+    <header><h1>Administrativo - PETSHOP</h1></header>
     <hr>
 
 
-
 <?php
-
-include('logado.php');
-    echo "Bem-vindo, colaborador Matrícula $logado"
+    include('logado.php');
+    include('conexao.php');
+        echo "Bem-vindo, colaborador Matrícula $logado";
 ?>
 
 </body>

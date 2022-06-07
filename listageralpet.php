@@ -15,7 +15,7 @@
 include('menucolab.html');
 
 ?>
-<h1>Lista Geral de Pets - PETSHOP</h1>
+<h1>Lista Geral de Pets</h1>
 <hr>
 
 

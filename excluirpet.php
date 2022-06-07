@@ -14,7 +14,7 @@
 include('menucolab.html');
 include('conexao.php');
 ?>
-<h1>Exclusão de dados - PETSHOP</h1>
+<h1>Exclusão de dados</h1>
 <hr>
 
 

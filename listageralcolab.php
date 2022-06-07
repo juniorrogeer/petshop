@@ -15,7 +15,7 @@
 include('menucolab.html');
 
 ?>
-<h1>Lista Geral de Colaboradores - PETSHOP</h1>
+<h1>Lista Geral de Colaboradores</h1>
 <hr>
 
 
@@ -35,9 +35,10 @@ $sql = mysqli_query($conectadb, "SELECT * FROM colaborador");
         $cpfcolab = $dado['cpfcolab'];
         $senhacolab = $dado['senhacolab'];
 
-        echo "MATRÍCULA: $matriculacolab<br>";
-        echo "NOME: $nomecolab<br>";
-        echo "CPF: $cpfcolab<br>";
+        echo "MATRÍCULA: $matriculacolab<br>
+              NOME: $nomecolab<br>
+              CPF: $cpfcolab<br>";
+              
         echo "<a href='editarcolab.php?matriculacolab=".$dado['matriculacolab']."'>Editar dados</a>";
         echo " | <a href='excluircolab.php?matriculacolab=".$dado['matriculacolab']."'>Excluir dados</a>";
         echo "<hr>";
